@@ -1,0 +1,9 @@
+ZNZ Web/
++-- index.html
++-- style.css
++-- lang.js
++-- locales/
+    +-- hu.json
+    +-- en.json
+    +-- fr.json
+    +-- de.json
