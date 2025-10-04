@@ -1,0 +1,8 @@
+/ZNZ Rádió/
+├── radio-index.html
+├── sytle.css
+├── znz_radio.js
+├── znz_radio.json
+├── szignal.css
+├── mime-checker.js
+├── inditas.js
