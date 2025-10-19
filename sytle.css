@@ -1,0 +1,38 @@
+/* Alap stílus */
+body {
+  background-color: #000000;
+  color: #00ffff;
+  font-family: monospace;
+  text-align: center;
+  padding: 2em;
+}
+
+/* Főcím villogása */
+h1 {
+  font-size: 2.5em;
+  animation: flicker 2s infinite;
+}
+
+/* Hírek stílusa */
+#news p {
+  margin: 1em 0;
+  font-size: 1.2em;
+  border-bottom: 1px dashed #00ffff;
+  padding-bottom: 0.5em;
+}
+
+/* Lábléc */
+footer {
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Flicker animáció */
+@keyframes flicker {
+  0%   { opacity: 1; }
+  25%  { opacity: 0.8; }
+  50%  { opacity: 0.4; }
+  75%  { opacity: 0.8; }
+  100% { opacity: 1; }
+}
